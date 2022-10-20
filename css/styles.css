@@ -1,6 +1,9 @@
 /* global style */
-body {
-  font-family: 'Roboto', 'Raleway';
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.logo{
+  font-family: "Raleway", sans-serif;
 }
 a {
   text-decoration: none;
@@ -9,8 +12,6 @@ a {
   list-style: none;
 }
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(32 / 26);
@@ -23,8 +24,6 @@ a {
 /* 1-st hw */
 /* header */
 .header-list-item {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -35,8 +34,6 @@ a {
   color: blue;
 }
 .header-mail-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -44,8 +41,6 @@ a {
   color: #2196f3;
 }
 .header-tel-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -57,8 +52,6 @@ a {
   background-color: #2f303a;
 }
 .main-section {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -68,8 +61,6 @@ a {
   color: #ffffff;
 }
 .main-button {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -82,8 +73,6 @@ a {
 }
 /* hero */
 .hero-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -92,8 +81,6 @@ a {
   color: #212121;
 }
 .hero-link-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -104,8 +91,6 @@ a {
 /* work */
 
 .work-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -117,8 +102,6 @@ a {
 /* team */
 
 .team-line {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -127,8 +110,6 @@ a {
   color: #212121;
 }
 .team-list {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -137,8 +118,6 @@ a {
   color: #212121;
 }
 .team-link-list {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -149,8 +128,6 @@ a {
 /* address */
 
 .address-link-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -159,8 +136,6 @@ a {
 }
 
 .address-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
