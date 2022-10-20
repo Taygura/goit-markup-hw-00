@@ -1,9 +1,9 @@
 /* global style */
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-.logo{
-  font-family: "Raleway", sans-serif;
+.logo {
+  font-family: 'Raleway', sans-serif;
 }
 a {
   text-decoration: none;
@@ -21,17 +21,17 @@ a {
 .web {
   color: black;
 }
-/* 1-st hw */
+
+/* HW-01 */
+
 /* header */
+
 .header-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: black;
-}
-.header-active-link:hover {
-  color: blue;
 }
 .header-mail-link {
   font-weight: 500;
@@ -47,14 +47,20 @@ a {
   letter-spacing: 0.02em;
   color: black;
 }
+.hover-tup:hover,
+:focus {
+  color: #d37217;
+}
+
 /* main */
+
 .main {
   background-color: #2f303a;
 }
 .main-section {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -63,7 +69,7 @@ a {
 .main-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: calc(30 / 16);
   display: flex;
   align-items: center;
   text-align: center;
@@ -71,11 +77,13 @@ a {
   background: #2196f3;
   color: #ffffff;
 }
+
 /* hero */
+
 .hero-link {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 12);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -83,7 +91,7 @@ a {
 .hero-link-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -93,7 +101,7 @@ a {
 .work-link {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -104,7 +112,7 @@ a {
 .team-line {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -112,7 +120,7 @@ a {
 .team-list {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 12);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -120,13 +128,16 @@ a {
 .team-link-list {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* address */
 
+.address {
+  background-color: #2f303a;
+}
 .address-link-link {
   font-weight: 400;
   font-size: 14px;
@@ -134,11 +145,10 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 .address-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
