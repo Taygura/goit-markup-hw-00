@@ -41,14 +41,16 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
+
 }
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: black;
+  color: #757575;
+
 }
 .hover-tup:hover,
 :focus {
