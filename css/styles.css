@@ -1,10 +1,11 @@
 /* global style */
-.body {
+body{
   font-family: 'Roboto', sans-serif;
-  --brand-color: #212121;
+  }
+  :root {--brand-color: #212121;
   --second-color: #757575;
-  --next-color: #ffffff;
-}
+  --next-color: #ffffff;}
+  
 .logo {
   font-family: 'Raleway', sans-serif;
 }
@@ -19,7 +20,7 @@ a {
   font-size: 26px;
   line-height: calc(32 / 26);
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #212121;
 }
 .web {
   color: black;
@@ -181,8 +182,7 @@ a {
 }
 
 /* project */
-.project{
-  background: #F5F5F5;}
+
 .project-text {
   font-weight: 500;
 font-size: 16px;
@@ -193,27 +193,54 @@ letter-spacing: 0.03em;
 }
 
 .project-1st-button {
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
-  background: #2196f3;
-  border-radius: 4px;
+width: 73px;
+height: 38px;
+left: 512px;
+top: 174px;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
-.project-butoon {
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
+.project-2nd-butoon{
+width: 125px;
+height: 38px;
+left: 593px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
+}
+.project-3d-butoon {
+width: 112px;
+height: 38px;
+left: 726px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.project-4r-butoon{
+width: 103px;
+height: 38px;
+left: 846px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.project-5v-butoon{
+width: 130px;
+height: 38px;
+left: 957px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
 }
 
 .project-text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
   color: var(--brand-color);
 }
 .project-text-link {
