@@ -20,7 +20,7 @@ a {
   font-size: 26px;
   line-height: calc(32 / 26);
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #2196F3;
 }
 .web {
   color: black;
@@ -31,11 +31,17 @@ a {
 .hover-tup:hover,
 :focus {
   color: #2196f3;
+  
 }
+.conteiner{
+    
+  }
 /* HW-01 */
 
 /* header */
-
+.header{
+  padding-top: 24px;
+}
 .header-list-item {
   font-weight: 500;
   font-size: 14px;
